@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+
+
+<style>
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+<script src="tablescript.js">
+</script>
+
+<style>
+        table.GeneratedTable {
+          width: 10%;
+          background-color: #ffffff;
+          border-collapse: collapse;
+          border-width: 7px;
+          border-color: #000000;
+          border-style: solid;
+          color: #000000;
+        }
+        
+        table.GeneratedTable td, table.GeneratedTable th {
+          border-width: 7px;
+          border-color: #000000;
+          border-style: solid;
+          padding: 27px;
+        }
+        
+        table.GeneratedTable thead {
+          background-color: #ffffff;
+        }
+        </style>
+        
+
+
+
+</head>
+<body>
+
+        <table class="GeneratedTable">
+        
+          
+         <tbody>
+          <tr>
+            <td id="item1"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item2"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1004.png"></td>
+            <td id="item3"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1006.png"></td>
+            <td id="item4"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1011.png"></td>
+            <td id="item5"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1018.png"></td>
+          </tr>
+          <tr>
+            <td id="item6"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1026.png"></td>
+            <td id="item7"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1027.png"></td>
+            <td id="item8"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1028.png"></td>
+            <td id="item9"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1029.png"></td>
+            <td id="item10"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1033.png"></td>
+            <tr>
+          <tr>
+            <td id="item11"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1036.png"></td>
+            <td id="item12"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1037.png"></td>
+            <td id="item13"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1038.png"></td>
+            <td id="item14"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1039.png"></td>
+            <td id="item15"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1041.png"></td>
+          </tr>
+          <tr>
+            <td id="item16"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1042.png"></td>
+            <td id="item17"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1043.png"></td>
+            <td id="item18"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1051.png"></td>
+            <td id="item19"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/10.png"></td>
+            <td id="item20"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+          </tr>
+          <tr>
+          <tr>
+            <td id="item21"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item22"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item23"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item24"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item25"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</body>
+</html>
