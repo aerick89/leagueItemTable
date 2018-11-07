@@ -5,17 +5,18 @@
 
 
 <style>
-#div1, #div2 {
+
+ #div1, #div2, #div3, #div4, #div5, #div6 {
     float: left;
     width: 100px;
-    height: 35px;
+    height: 100px;
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
 }
+
+
 </style>
-<script src="tablescript.js">
-</script>
 
 <style>
         table.GeneratedTable {
@@ -38,7 +39,9 @@
         table.GeneratedTable thead {
           background-color: #ffffff;
         }
-        </style>
+        
+        
+  </style>
         
 
 
@@ -50,41 +53,72 @@
         
           
          <tbody>
+           
+<script src="tablescript.js">
+  </script>
+
+
           <tr>
-            <td id="item1"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
-            <td id="item2"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1004.png"></td>
-            <td id="item3"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1006.png"></td>
-            <td id="item4"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1011.png"></td>
-            <td id="item5"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1018.png"></td>
+            <td id="item1" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+            </td>
+            <td id="item2" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1004.png" draggable="true" ondragstart="drag(event)" id="drag2"></td>
+            <td id="item3" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1006.png" draggable="true" ondragstart="drag(event)" id="drag3"></td>
+            <td id="item4" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1011.png" draggable="true" ondragstart="drag(event)" id="drag4"></td>
+            <td id="item5" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1018.png" draggable="true" ondragstart="drag(event)" id="drag5"></td>
           </tr>
           <tr>
-            <td id="item6"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1026.png"></td>
-            <td id="item7"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1027.png"></td>
-            <td id="item8"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1028.png"></td>
-            <td id="item9"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1029.png"></td>
-            <td id="item10"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1033.png"></td>
+            <td id="item6" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1026.png" draggable="true" ondragstart="drag(event)" id="drag6"></td>
+            <td id="item7" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1027.png" draggable="true" ondragstart="drag(event)" id="drag7"></td>
+            <td id="item8" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1028.png" draggable="true" ondragstart="drag(event)" id="drag8"></td>
+            <td id="item9" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1029.png" draggable="true" ondragstart="drag(event)" id="drag9"></td>
+            <td id="item10"ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1033.png" draggable="true" ondragstart="drag(event)" id="drag10"> </td>
             <tr>
           <tr>
-            <td id="item11"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1036.png"></td>
-            <td id="item12"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1037.png"></td>
-            <td id="item13"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1038.png"></td>
-            <td id="item14"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1039.png"></td>
-            <td id="item15"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1041.png"></td>
+            <td id="item11" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1036.png" draggable="true" ondragstart="drag(event)" id="drag11"></td>
+            <td id="item12" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1037.png" draggable="true" ondragstart="drag(event)" id="drag12"></td>
+            <td id="item13" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1038.png" draggable="true" ondragstart="drag(event)" id="drag13"></td>
+            <td id="item14" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1039.png" draggable="true" ondragstart="drag(event)" id="drag14"></td>
+            <td id="item15" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1041.png" draggable="true" ondragstart="drag(event)" id="drag15"></td>
           </tr>
           <tr>
-            <td id="item16"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1042.png"></td>
-            <td id="item17"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1043.png"></td>
-            <td id="item18"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1051.png"></td>
-            <td id="item19"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/10.png"></td>
-            <td id="item20"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item16" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1042.png" draggable="true" ondragstart="drag(event)" id="drag16"></td>
+            <td id="item17" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1043.png" draggable="true" ondragstart="drag(event)" id="drag17"></td>
+            <td id="item18" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1051.png" draggable="true" ondragstart="drag(event)" id="drag18"></td>
+            <td id="item19" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/10.png" draggable="true" ondragstart="drag(event)" id="drag19"></td>
+            <td id="item20" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag20"></td>
           </tr>
           <tr>
           <tr>
-            <td id="item21"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
-            <td id="item22"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
-            <td id="item23"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
-            <td id="item24"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
-            <td id="item25"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png"></td>
+            <td id="item21" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag21"></td>
+            <td id="item22" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag22"></td>
+            <td id="item23" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag23"></td>
+            <td id="item24" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag24"></td>
+            <td id="item25" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag25"></td>
           </tr>
         </tbody>
       </table>
@@ -95,12 +129,23 @@
 <h2>Drag and Drop</h2>
 <p>Drag the image back and forth between the two div elements.</p>
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
-</div>
 
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+
+<table border="1">
+  <tr>
+    <th id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">Slot1</th>
+    <th id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">Slot2</th>
+    <th id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">Slot3</th>
+   </tr>
+    <th id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Slot4</th>
+    <th id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">Slot5</th>
+    <th id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">Slot6</th>
+</table>
+
+
+
 </body>
 </html>
